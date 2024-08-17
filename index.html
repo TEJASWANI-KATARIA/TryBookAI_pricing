@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <center>
+        <section id="pricing">
+
+            <div class="main_box"> 
+
+
+                <!-- this will work as the head section of the pricing box -->
+                <div class="p_top">
+                    <h2 class="title"><strong>API PRICING <i class="fa-solid fa-dollar-sign"></i></strong></h2>
+                    <h4>Choose Your Plan</h4>
+                    <p class="note1">Our API pricing is based on the model used and the number of tokens processed. Here's a breakdown of the costs:</p>
+                </div>
+
+                 <!-- this will work as the mid section of the pricing box -->
+                <div class="p_middle">
+                    <!-- this contain the four available plans -->
+                    <div class="plan">
+                        <div class="pname"><h4>Model</h4><h2 class="model_name">GPT-3.5</h2></div>
+                        <div class="pcontent"><h5><BR>API:- OpenAI<BR><br>PRICE PER 1K TOKENS :<BR>$0.002</h5></div>
+                    </div>
+                    <div class="plan">
+                         <div class="pname"><h4>Model</h4><h2 class="model_name">GPT-4</h2></div>
+                        <div class="pcontent"><h5><BR><strong>API:- OpenAI</strong><BR><br>PRICE PER 1K TOKENS :<BR>$0.03</h5></div>
+                    </div>
+                    <div class="plan">
+                         <div class="pname"><h4>Model</h4><h2 class="model_name">Llama-2-70b</h2></div>
+                        <div class="pcontent"><h5><BR>API:- Together AI<BR><br>PRICE PER 1K TOKENS :<BR>$0.0008</h5></div>
+                    </div>
+                    <div class="plan">
+                         <div class="pname"><h4>Model</h4><h2 class="model_name">Llama-2-13b</h2></div>
+                        <div class="pcontent"><h5><BR>API:- Together AI<BR><br>PRICE PER 1K TOKENS :<BR>$0.0006</h5></div>
+                    </div>
+                </div>
+
+                 <!-- this will work as the lower section of the pricing box -->
+
+                <div class="p_lower">
+                    <!-- it contains the token estimation and billing details futher a calculator tool will be added here  -->
+                    <div class="token_estimation">
+                        <h3 class="heading">Token Estimation</h3>
+                        <p class="note">On average, 1 token is approxmiately 4 characters or 0.75 words. For precise pricing, we recommend using our token Calculator.</p>
+                    </div>
+                    <div class="billing">
+                        <h3 class="heading">Billing</h3>
+                        <p class="note">You will only be charged for the tokens used in generating the book. The API tracks token usage and bill accordingly. Detailed usage reports are availabe in your account dashboard.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button id="theme-toggle">Change Theme</button>
+        </section>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
